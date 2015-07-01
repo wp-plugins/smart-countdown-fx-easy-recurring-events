@@ -1,0 +1,456 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Blank Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2015-06-11 09:56+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: smartcdeasyrecurrence.php:59
+msgid "Easy recurring"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:84 smartcdeasyrecurrence.php:95
+msgid "Smart Countdown FX Easy Recurring Events Settings"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:84
+msgid "Easy Recurring Events"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:115
+msgid "Settings"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:144
+msgid "Merge configurations"
+msgstr "Fusionar ambas configuraciones"
+
+#: smartcdeasyrecurrence.php:150 smartcdeasyrecurrence.php:173
+msgid "Untitled"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:226
+msgid "Configuration"
+msgstr "Configuración"
+
+#: smartcdeasyrecurrence.php:229
+msgid "Title"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:232
+msgid ""
+"This title will appear in available event import profiles list in Smart "
+"Countdown FX configuration"
+msgstr ""
+"Este título aparecerá en la lista de perfiles de importación de eventos "
+"disponibles en configuración de Smart Countdown FX"
+
+#: smartcdeasyrecurrence.php:236
+msgid "Recurrence pattern"
+msgstr "Patrón de repetición"
+
+#: smartcdeasyrecurrence.php:240
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: smartcdeasyrecurrence.php:241
+msgid "Daily"
+msgstr "Diario"
+
+#: smartcdeasyrecurrence.php:242
+msgid "Weekly"
+msgstr "Semanal"
+
+#: smartcdeasyrecurrence.php:243
+msgid "Monthly"
+msgstr "Mensual"
+
+#: smartcdeasyrecurrence.php:244
+msgid "Yearly"
+msgstr "Anual"
+
+#: smartcdeasyrecurrence.php:252
+msgid "Date"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:255
+#, fuzzy
+msgid "Month"
+msgstr "Mes"
+
+#: smartcdeasyrecurrence.php:258
+msgid "January"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:259
+msgid "February"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:260
+msgid "March"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:261
+msgid "April"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:262
+msgid "May"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:263
+msgid "June"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:264
+msgid "July"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:265
+msgid "August"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:266
+msgid "September"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:267
+msgid "October"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:268
+msgid "November"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:269
+msgid "December"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:275
+#, fuzzy
+msgid "Day"
+msgstr "Día"
+
+#: smartcdeasyrecurrence.php:286
+msgid "Week days"
+msgstr "Días de la semana"
+
+#: smartcdeasyrecurrence.php:290
+msgid "Sunday"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:291
+msgid "Monday"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:292
+msgid "Tuesday"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:293
+msgid "Wednesday"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:294
+msgid "Thursday"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:295
+msgid "Friday"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:296
+msgid "Saturday"
+msgstr ""
+
+#: smartcdeasyrecurrence.php:299
+msgid ""
+"Select week days when event takes place. Selecting all will result in \"Daily"
+"\" recurrence. Selecting none will disable recurrence."
+msgstr ""
+"Seleccione los días de la semana cuando el evento se lleva a cabo. "
+"Seleccionar todo resultará en una recurrencia \"Diaria\". Selección vacía "
+"desactivará la recurrencia."
+
+#: smartcdeasyrecurrence.php:303
+msgid "Time"
+msgstr "Hora"
+
+#: smartcdeasyrecurrence.php:305
+msgid "Hours"
+msgstr "Horas"
+
+#: smartcdeasyrecurrence.php:312
+msgid "Minutes"
+msgstr "Minutos"
+
+#: smartcdeasyrecurrence.php:322
+msgid "Duration (hh:mm)"
+msgstr "Duración (hh: mm)"
+
+#: smartcdeasyrecurrence.php:325
+msgid ""
+"Enter event duration in \"hours:minutes\" format, e.g. 2:30 for two hours "
+"and a half. Allowed range: 0:00 - 23:59."
+msgstr ""
+"Introduzca duración del evento en formato \"horas: minutos\", por ejemplo "
+"02:30 para dos horas y media. Rango permitido: 0:00 - 23:59."
+
+#~ msgid " - Merge configurations"
+#~ msgstr " - Fusionar ambas configuraciones"
+
+#~ msgid "Merge both configurations"
+#~ msgstr "Fusionar ambas configuraciones"
+
+#~ msgid "years"
+#~ msgstr "años"
+
+#~ msgid "months"
+#~ msgstr "meses"
+
+#~ msgid "weeks"
+#~ msgstr "semanas"
+
+#~ msgid "days"
+#~ msgstr "días"
+
+#~ msgid "hours"
+#~ msgstr "horas"
+
+#~ msgid "minutes"
+#~ msgstr "minutos"
+
+#~ msgid "seconds"
+#~ msgstr "segundos"
+
+#~ msgid "Import events from:"
+#~ msgstr "Importar eventos de:"
+
+#~ msgid "None. Use event date and time from settings"
+#~ msgstr "Ninguno. Usar fecha y hora del evento de configuración"
+
+#~ msgid "Invalid configuration"
+#~ msgstr "Configuración no válida"
+
+#~ msgid "Second"
+#~ msgid_plural "Seconds"
+#~ msgstr[0] "Segundo"
+#~ msgstr[1] "Segundos"
+
+#~ msgid "Minute"
+#~ msgid_plural "Minutes"
+#~ msgstr[0] "Minuto"
+#~ msgstr[1] "Minutos"
+
+#~ msgid "Hour"
+#~ msgid_plural "Hours"
+#~ msgstr[0] "Hora"
+#~ msgstr[1] "Horas"
+
+#~ msgid "Week"
+#~ msgid_plural "Weeks"
+#~ msgstr[0] "Semana"
+#~ msgstr[1] "Semanas"
+
+#~ msgid "Year"
+#~ msgid_plural "Years"
+#~ msgstr[0] "Año"
+#~ msgstr[1] "Años"
+
+#~ msgid "Responsive Countdown / countup widget."
+#~ msgstr "Translation for Responsive Countdown / countup widget."
+
+#~ msgid "Title:"
+#~ msgstr "Título:"
+
+#~ msgid "Event date and time:"
+#~ msgstr "La fecha y hora del evento:"
+
+#~ msgid "Counter display mode:"
+#~ msgstr "Modo de visualización del contador:"
+
+#~ msgid "Auto - both countdown and count up"
+#~ msgstr "Automático - cuenta atrás y cuenta delante"
+
+#~ msgid "Only before event (countdown)"
+#~ msgstr "Solamente antes de evento (cuenta atrás)"
+
+#~ msgid "Countdown - no limit"
+#~ msgstr "Cuenta atrás - sin límite"
+
+#~ msgid "Show counter %s before event"
+#~ msgstr "Mostrar contador %s antes de evento"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d hora"
+#~ msgstr[1] "%d horas"
+
+#~ msgid "%d day"
+#~ msgid_plural "%d days"
+#~ msgstr[0] "%d día"
+#~ msgstr[1] "%d días"
+
+#~ msgid "%d week"
+#~ msgid_plural "%d weeks"
+#~ msgstr[0] "%d semana"
+#~ msgstr[1] "%d semanas"
+
+#~ msgid "Only after event (count up)"
+#~ msgstr "Solamente después de evento (cuenta delante)"
+
+#~ msgid "Count up - no limit"
+#~ msgstr "Cuenta delante - sin límite"
+
+#~ msgid "Hide counter %s after event"
+#~ msgstr "Ocultar contador %s después de evento"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d minuto"
+#~ msgstr[1] "%d minutos"
+
+#~ msgid "Title before counter for countdown mode"
+#~ msgstr "Título antes de contador para el modo de cuenta atrás"
+
+#~ msgid "Title after counter for countdown mode"
+#~ msgstr "Título después de contador para el modo de cuenta atrás"
+
+#~ msgid "Title before counter for count up mode"
+#~ msgstr "Título antes de contador para el modo de cuenta delante"
+
+#~ msgid "Title after counter for count up mode"
+#~ msgstr "Título después de contador para el modo de cuenta delante"
+
+#~ msgid "Counter animation profile:"
+#~ msgstr "Perfil de animación del contador:"
+
+#~ msgid "Widget layout preset:"
+#~ msgstr "Diseño predefinido:"
+
+#~ msgid "Use titles for count up mode as \"Time has arrived\" message"
+#~ msgstr ""
+#~ "Uso de títulos para el modo de cuenta delante como mensaje \"Ha llegado "
+#~ "el momento\""
+
+#~ msgid "Display counter units:"
+#~ msgstr "Unidades de contador para visualización:"
+
+#~ msgid "Text before counter font size:"
+#~ msgstr "Tamaño de fuente de Texto antes de contador"
+
+#~ msgid "Text after counter font size:"
+#~ msgstr "Tamaño de fuente de Texto después de contador"
+
+#~ msgid "Counter digits size:"
+#~ msgstr "Tamaño de los dígitos de contador:"
+
+#~ msgid "Counter labels size:"
+#~ msgstr "Tamaño de las etiquetas de contador:"
+
+#~ msgid ""
+#~ "Goto URL on widget click (leave this field empty to disable this feature):"
+#~ msgstr ""
+#~ "Widget como enlace a URL (deje este campo vacío para desactivar esta "
+#~ "función):"
+
+#~ msgid ""
+#~ "Redirect to URL on contdown zero (leave this field empty to disable "
+#~ "automatic redirection):"
+#~ msgstr ""
+#~ "Redirigir a URL cuando la cuenta atrás acaba (deje este campo vacío para "
+#~ "deshabilitar la redirección automática):"
+
+#~ msgid "Widget style - CSS rules separated and ended with a semicolon:"
+#~ msgstr ""
+#~ "Estilo del widget - reglas CSS separadas y terminados con un punto y coma:"
+
+#~ msgid ""
+#~ "Text before counter style - CSS rules separated and ended with a "
+#~ "semicolon:"
+#~ msgstr ""
+#~ "Estilo del texto antes de contador - reglas CSS separadas y terminados "
+#~ "con un punto y coma:"
+
+#~ msgid ""
+#~ "Text after counter style - CSS rules separated and ended with a semicolon:"
+#~ msgstr ""
+#~ "Estilo del texto después de contador - reglas CSS separadas y terminados "
+#~ "con un punto y coma:"
+
+#~ msgid ""
+#~ "Counter digits style - CSS rules separated and ended with a semicolon:"
+#~ msgstr ""
+#~ "Estilo de los dígitos de contador - reglas CSS separado y terminado con "
+#~ "un punto y coma:"
+
+#~ msgid ""
+#~ "Counter labels style - CSS rules separated and ended with a semicolon:"
+#~ msgstr ""
+#~ "Estilo de los etiquetas de contador - reglas CSS separado y terminado con "
+#~ "un punto y coma:"
+
+#~ msgid "Smart Countdown FX requires WordPress %s or higher."
+#~ msgstr "Smart Countdown FX requiere WordPress %s o superior."
+
+#~ msgid ""
+#~ "Goto URL on click (leave this field empty to disable \"widget clickable"
+#~ "\"):"
+#~ msgstr ""
+#~ "Ir a URL de clic (deje este campo vacío desactivar &quot;widget se puede "
+#~ "hacer clic&quot;):"
+
+#~ msgid "Smart Countdown requires WordPress %s or higher."
+#~ msgstr "Smart Countdown requiere WordPress %s o superior."
+
+#~ msgid "Text before counter CSS separated and ended with a semicolon:"
+#~ msgstr ""
+#~ "Texto antes de contador - reglas CSS separado y terminado con un punto y "
+#~ "coma:"
+
+#~ msgid "Text after counter CSS separated and ended with a semicolon:"
+#~ msgstr ""
+#~ "Texto después contador - reglas CSS separado y terminado con un punto y "
+#~ "coma:"
+
+#~ msgid "Counter digits CSS separated and ended with a semicolon:"
+#~ msgstr ""
+#~ "Dígitos de contador - reglas CSS separado y terminado con un punto y coma:"
+
+#~ msgid "Counter labels CSS separated and ended with a semicolon:"
+#~ msgstr ""
+#~ "Etiquetas de contador - reglas CSS separado y terminado con un punto y "
+#~ "coma:"
+
+#~ msgid ""
+#~ "Show event title only in count up mode (\"time arrived\" message mode)"
+#~ msgstr ""
+#~ "Mostrar solamente el título de evento en modo de cuenta delante (mensaje "
+#~ "tipo \"La hora ha llegado\")"
+
+#~ msgid "Event text will go here for ID:"
+#~ msgstr "Título del evento estará aquí! "
+
+#~ msgid "test translation"
+#~ msgstr "traducción"
+
+#~ msgid "Event text will go here for ID: "
+#~ msgstr "Great translation for event text"
