@@ -198,11 +198,11 @@ class SmartCountdownEasyRecurring_Helper {
 				return;
 			} else {
 				// weekdays - special case
-				if( empty( $weekdays ) ) {
+				if( empty( $recurrence_config['weekdays'] ) ) {
 					return;
 				}
 				$today_weekday = $base_date->format( 'w' );
-				$recurrence_days = array_keys( $weekdays );
+				$recurrence_days = array_keys( $recurrence_config['weekdays'] );
 				
 				// Make sure that weekdays are sorted ASC
 				sort( $recurrence_days );
