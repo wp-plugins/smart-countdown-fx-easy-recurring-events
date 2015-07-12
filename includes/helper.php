@@ -254,9 +254,6 @@ class SmartCountdownEasyRecurring_Helper {
 			$diff = $delta >= 0 ? '+' . $delta : $delta;
 			$tmp->modify( $diff . ' ' . $unit );
 			
-			// we may need another copy if "countdown_to_end" mode is active
-			$tmp2 = clone ( $tmp );
-			
 			// for monthly and yearly recurrence we check if requested date exists
 			// in month. If not we replace it with the last day of month
 			if( $unit == 'month' || $unit == 'year' ) {
@@ -279,13 +276,13 @@ class SmartCountdownEasyRecurring_Helper {
 					'dbg_date' => $tmp->format( 'Y-m-d H:i:s' ) 
 			);
 			if( $countdown_to_end && $duration > 0 ) {
-				$tmp2->modify( '+' . $duration . ' second' );
+				$tmp->modify( '+' . $duration . ' second' );
 				$imported[] = array(
-						'deadline' => self::dateToUTC( $tmp2 ),
+						'deadline' => self::dateToUTC( $tmp ),
 						'is_countdown_to_end' => 1,
 						'duration' => 0,
 						'title' => '',
-						'dbg_date' => $tmp2->format( 'Y-m-d H:i:s' ) 
+						'dbg_date' => $tmp->format( 'Y-m-d H:i:s' ) 
 				);
 			}
 		}
@@ -329,7 +326,8 @@ class SmartCountdownEasyRecurring_Helper {
 	private static $timeZone = null;
 	private static function dateToUTC( $date ) {
 		if( $date instanceof DateTime ) {
-			$result = $date;
+			// do not modify $date, work with a clone copy
+			$result = clone( $date );
 		} else {
 			$result = new DateTime( $date );
 		}
